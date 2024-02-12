@@ -1,0 +1,25 @@
+.footer {
+    background: $grey4B;
+    color: $white;
+    line-height: 24px;
+    padding-bottom: 22px;
+    &-nav__link {
+        color: $white;
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .line {
+        display: block;
+        width: 1506px;
+        margin: 0 auto 22px auto;
+        height: 1px;
+        background: $white;
+        opacity: 0.3;
+        @media screen and (max-width: 1506px) {
+            width: 100%;
+        }
+    }
+}
+.footer-copy{
+    font-size: 14px;
+}

@@ -1,0 +1,23 @@
+.plus {
+    padding: 92px 0 105px 0;
+    &-item{
+        flex-basis: 230px;
+        text-align: center;
+        align-self: baseline;
+        &__img {
+            margin: 0 auto;
+            padding-bottom: 18px;
+        }
+        &__content {
+            color: $black00;
+            line-height: 21px;
+            font-weight: 500;
+        }
+    }
+    &-item:nth-of-type(2){
+        flex-basis: 220px;
+    }
+    &-item:nth-of-type(3){
+        flex-basis: 260px;
+    }
+}

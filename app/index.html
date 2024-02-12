@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛОГО</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrap wrapper flex">
+            <img src="./images/icons/logo.svg" alt="Логотип." class="logo">
+            <div class="geo">
+                <img src="./images/icons/geo.svg" alt="Иконка геолокации" class="geo__icon">
+                <p>Тамбов</p>
+            </div>
+            <div class="tel">
+                <img src="./images/icons/tel.svg" alt="Иконка телефона" class="tel__icon">
+                <a href="tel:+79156600909" class="tel__link">
+                    +7 (915) 660 09-09
+                </a>
+            </div>
+            <div class="time-work">
+                <img src="./images/icons/time.svg" alt="Иконка часов" class="time-work__icon">
+                <p class="time-work__text">09:00-21:00</p>
+            </div>
+            <span id="burger" class="burger"></span>
+        </div>
+    </header>
+    <section class="nav-basket">
+        <div class="nav-wrap wrapper flex">
+            <nav class="navigation">
+                <a href="#" class="navigation__item">
+                    Меню ресторана
+                </a>
+                <a href="#" class="navigation__item">
+                    Бизнес-ланч
+                </a>
+                <a href="#" class="navigation__item">
+                    Детокс
+                </a>
+                <a href="#" class="navigation__item">
+                    Рационы
+                </a>
+            </nav>
+            <div class="basket">
+                <div class="basket__container">
+                    <span class="count">3</span>
+                    <img src="./images/icons/bask.svg" alt="Иконка корзины" class="basket__img">
+                </div>
+                <a href="#" class="basket__link">
+                    Корзина
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide bg-slide">
+            <div class="sl wrapper">
+                <div class="sl-left">
+                    <p class="sl-left__content">
+                        <span class="sl-left__content--green">
+                            <span>Детокс -</span><br>
+                            программа<br>
+                        </span>
+                    </p>
+                    <p class="sl-left__price">комплексного очищения организма<br>
+                        от 
+                        <span class="sl-left__price--span">
+                            1099
+                        </span> 
+                        руб</p>
+                    <button class="btn evenClick">Заказать</button>
+                </div>
+                <div class="slide-rigth">
+                    <img src="./images/photos/banner.png" alt="Детокс программа">
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide bg-slide">
+            <div class="sl wrapper">
+                <div class="sl-left">
+                    <p class="sl-left__content">
+                        <span class="sl-left__content--green">
+                            <span>Детокс -</span><br>
+                            программа<br>
+                        </span>
+                    </p>
+                    <p class="sl-left__price">комплексного очищения организма<br>
+                        от 
+                        <span class="sl-left__price--span">
+                            1099
+                        </span> 
+                        руб</p>
+                    <button class="btn evenClick">Заказать</button>
+                </div>
+                <div class="slide-rigth">
+                    <img src="./images/photos/banner.png" alt="Детокс программа">
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide bg-slide">
+            <div class="sl wrapper">
+                <div class="sl-left">
+                    <p class="sl-left__content">
+                        <span class="sl-left__content--green">
+                            <span>Детокс -</span><br>
+                            программа<br>
+                        </span>
+                    </p>
+                    <p class="sl-left__price">комплексного очищения организма<br>
+                        от 
+                        <span class="sl-left__price--span">
+                            1099
+                        </span> 
+                        руб</p>
+                    <button class="btn evenClick">Заказать</button>
+                </div>
+                <div class="slide-rigth">
+                    <img src="./images/photos/banner.png" alt="Детокс программа">
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide bg-slide">
+            <div class="sl wrapper">
+                <div class="sl-left">
+                    <p class="sl-left__content">
+                        <span class="sl-left__content--green">
+                            <span>Детокс -</span><br>
+                            программа<br>
+                        </span>
+                    </p>
+                    <p class="sl-left__price">комплексного очищения организма<br>
+                        от 
+                        <span class="sl-left__price--span">
+                            1099
+                        </span> 
+                        руб</p>
+                    <button class="btn evenClick">Заказать</button>
+                </div>
+                <div class="slide-rigth">
+                    <img src="./images/photos/banner.png" alt="Детокс программа">
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <section class="plus flex wrapper">
+        <div class="plus-item">
+            <img src="./images/icons/food.svg" alt="Иконка брокколи" class="plus-item__img">
+            <p class="plus-item__content">
+                Используем только натуральные продукты, блюда без консервантов и искусственных добавок.
+            </p>
+        </div>
+        <div class="plus-item">
+            <img src="./images/icons/task.svg" alt="Иконка кбжу" class="plus-item__img">
+            <p class="plus-item__content">
+                Сбалансированное здоровое меню, соответствующее КБЖУ.
+            </p>
+        </div>
+        <div class="plus-item">
+            <img src="./images/icons/task-t.svg" alt="Иконка программы" class="plus-item__img">
+            <p class="plus-item__content">
+                По желанию подберем программу тренировок и составим индивидуальное КБЖУ для любого уровня подготовки.
+            </p>
+        </div>
+        <div class="plus-item">
+            <img src="./images/icons/deliv.svg" alt="Иконка доставки" class="plus-item__img">
+            <p class="plus-item__content">
+                Бесплатная доставка, чтобы сэкономить массу времени и сил для более важных и приятных дел.
+            </p>
+        </div>
+    </section>
+    <h2 class="title wrapper">Рационы</h2>
+    <section class="ration flex wrapper">
+        <div class="ration-item">
+            <img src="./images/photos/image-1.png" alt="Еда" class="ration-item__img">
+            <p class="ration-item__title">Баланс</p>
+            <p class="ration-item__content">
+                Здоровое питание на каждый день
+                для тех, кто  заботится о своем ежедневном рационе.
+            </p>
+            <span class="ration-item__cla">
+                ~1 800 ккал
+            </span>
+            <div class="ration-item-price flex">
+                <p class="ration-item-price__sum">
+                    1 190 ₽
+                </p>
+                <button class="ration-item-price__btn btn">
+                    Выбрать
+                </button>
+            </div>
+        </div>
+        <div class="ration-item">
+            <img src="./images/photos/image-2.png" alt="Еда" class="ration-item__img">
+            <p class="ration-item__title">ЛАЙТ</p>
+            <p class="ration-item__content">
+                Четырехразовое меню для похудения, поддержания формы и создания рельефа.
+            </p>
+            <span class="ration-item__cla">
+                ~1 400 ккал
+            </span>
+            <div class="ration-item-price flex">
+                <p class="ration-item-price__sum">
+                    1 050 ₽
+                </p>
+                <button class="ration-item-price__btn btn">
+                    Выбрать
+                </button>
+            </div>
+        </div>
+        <div class="ration-item">
+            <img src="./images/photos/image-3.png" alt="Еда" class="ration-item__img">
+            <p class="ration-item__title">Супер лайт</p>
+            <p class="ration-item__content">
+                Быстрое похудение и поддержание формы. Трехразовое меню для быстрого снижения веса без спорта.
+            </p>
+            <span class="ration-item__cla">
+                ~900 ккал
+            </span>
+            <div class="ration-item-price flex">
+                <p class="ration-item-price__sum">
+                    890 ₽
+                </p>
+                <button class="ration-item-price__btn btn">
+                    Выбрать
+                </button>
+            </div>
+        </div>
+        <div class="ration-item">
+            <img src="./images/photos/image-4.png" alt="Еда" class="ration-item__img">
+            <p class="ration-item__title">масс</p>
+            <p class="ration-item__content">
+                Сбалансированное питание для поддержания оптимальной формы при тренировках.
+            </p>
+            <span class="ration-item__cla">
+                ~1 800 ккал
+            </span>
+            <div class="ration-item-price flex">
+                <p class="ration-item-price__sum">
+                    1 490 ₽
+                </p>
+                <button class="ration-item-price__btn btn">
+                    Выбрать
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="about flex wrapper">
+        <img src="./images/photos/image-5.png" alt="О нас" class="about__img">
+        <div class="about-desc">
+            <h2 class="title">о нас</h2>
+            <p class="about-desc__content content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, neque, et leo nulla nisl. Neque parturient elementum habitasse etiam nec. Fermentum justo nam nibh vitae pellentesque integer. Imperdiet habitant tortor est amet tortor viverra. Nulla eget commodo, adipiscing arcu in et risus in.
+            </p>
+            <p class="about-desc__content content">
+                Cras eu molestie consectetur amet at euismod. Nunc elementum lorem pharetra cursus risus eu. Ac feugiat arcu etiam eget sem urna tincidunt lacus. Nec morbi ultrices nulla accumsan adipiscing. Elementum sagittis eu placerat non molestie luctus gravida. Risus laoreet nunc lectus orci. Vitae at augue sagittis. Sed faucibus ultrices elementum faucibus varius leo, vitae. Molestie semper habitant varius eleifend nisi faucibus
+            </p>
+        </div>
+    </section>
+    <section class="deliv wrapper">
+        <div class="deliv-item">
+            <h2 class="title">
+                Условия ДОСТАВКи
+            </h2>
+            <p class="deliv-item__content content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, neque, et leo nulla nisl. Neque parturient elementum habitasse etiam nec.
+            </p>
+            <p class="deliv-item__content content">
+                Fermentum justo nam nibh vitae pellentesque integer. Imperdiet habitant tortor est amet tortor viverra.
+            </p>
+            <button class="deliv-item__bth btn evenClick">Связаться с нами</button>
+        </div>
+        <div class="deliv-item">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21696.203306257958!2d41.46458076790856!3d52.72966821108113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4139142dd0ee2e57%3A0xebdfaa26bef45f48!2z0JTRgNCw0LzQsNGC0LjRh9C10YHQutC40Lkg0YLQtdCw0YLRgA!5e0!3m2!1sru!2sru!4v1707652776373!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        <nav class="footer-nav flex wrapper">
+            <img src="./images/icons/logo-f.svg" alt="Логотип" class="footer-nav__logo">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        Контакты
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        О компании
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        Оплата
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        Доставка
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        Публичная оферта
+                    </a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link">
+                        Политика конфиденциальности
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <span class="line"></span>
+        <div class="footer-copy wrapper">
+            <div class="footer-copy-wrap flex">
+                <p>© 2022</p>
+                <a href="#" class="footer-copy__inst"><img src="./images/icons/inst.svg" alt="иконка инстаграмма"></a>
+            </div>
+            <p class="footer-copy__content">
+                Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных
+            </p>
+        </div>
+    </footer>
+
+    <div id="wrap-modal" class="wrap-modal">
+        <div id="modal" class="modal">
+            <h2 class="modal-title">
+                Форма обратной связи
+            </h2>
+            <label for="" class="modal-label">
+                Ваше имя <span class="modal-label--green">*</span>
+            </label>
+            <input value="" type="text" class="modal-input">
+            <label for="" class="modal-label">
+                Телефон <span class="modal-label--green">*</span>
+            </label>
+            <input value="" type="tel" class="modal-input tel" data-tel-input maxlength="18">
+            <button class="modal__btn btn">
+                Отправить
+            </button>
+            <p class="modal__pact">
+                Нажимая на кнопку, вы соглашаетесь на обработку
+                <a href="#" class="modal__resonal">
+                    персональных данных
+                </a>
+            </p>
+            <button class="close"></button>
+        </div>
+        <div id="answer" class="answer">
+            <h2 class="modal-title">
+                Форма обратной связи
+            </h2>
+            <p class="modal-content">
+                Ваша заявка успешно отправлена.
+            </p>
+            <button class="answer__btn btn">
+                Закрыть
+            </button>
+            <button class="close"></button>
+        </div>
+    </div>
+    <div id="menu" class="menu">
+        <div class="nav-wrap wrapper flex">
+            <nav class="navigation">
+                <a href="#" class="navigation__item">
+                    Меню ресторана
+                </a>
+                <a href="#" class="navigation__item">
+                    Бизнес-ланч
+                </a>
+                <a href="#" class="navigation__item">
+                    Детокс
+                </a>
+                <a href="#" class="navigation__item">
+                    Рационы
+                </a>
+            </nav>
+            <div class="basket">
+                <a href="#" class="basket__link">
+                    Корзина
+                </a>
+                <div class="basket__container">
+                    <span class="count">3</span>
+                    <img src="./images/icons/bask.svg" alt="Иконка корзины" class="basket__img">
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap flex">
+            <div class="geo">
+                <img src="./images/icons/geo.svg" alt="Иконка геолокации" class="geo__icon">
+                <p>Тамбов</p>
+            </div>
+            <div class="tel">
+                <img src="./images/icons/tel.svg" alt="Иконка телефона" class="tel__icon">
+                <a href="tel:+79156600909" class="tel__link">
+                    +7 (915) 660 09-09
+                </a>
+            </div>
+            <div class="time-work">
+                <img src="./images/icons/time.svg" alt="Иконка часов" class="time-work__icon">
+                <p class="time-work__text">09:00-21:00</p>
+            </div>
+        </div>
+        <button id="close-menu" class="close"></button>
+    </div>
+    <script src="./js/main.js" type="module">
+    </script>
+</body>
+</html>

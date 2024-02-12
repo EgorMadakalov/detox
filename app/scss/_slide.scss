@@ -1,0 +1,52 @@
+.bg-slide { 
+    width: 100%;
+    max-height: 700px;
+    background: url('../images/background/bg-slide.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 52px 0 70px 0;
+}
+.sl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &-left {
+        max-width: 50%;
+        text-align: left;
+        color: $white;
+        &__content {
+            text-transform: uppercase;
+            &--green {
+                font-family: $RobotoBold;
+                font-size: 64px;
+                line-height: 64px;
+                span {
+                    color: $green;
+                }
+            }
+        }
+        &__price {
+            font-family: $RobotoReg;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 28px;
+            &--span {
+                font-family: $RobotoBlack;
+                font-size: 32px;
+            }
+        }
+        .btn {
+            width: 175px;
+            height: 44px;
+            font-size: 16px;
+            margin-top: 18px;
+        }
+    }
+    &-right {
+        max-width: 50%;
+        img {
+            max-width: 100%;
+        }
+    }
+}

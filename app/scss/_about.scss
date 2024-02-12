@@ -1,0 +1,20 @@
+.about {
+    padding-bottom: 92px;
+    &__img {
+        max-width: 48%;
+        border-radius: 14px;
+    }
+    .about-desc {
+        max-width: 48%;
+        .title {
+            padding-bottom: 38px;
+        }
+        &__content {
+            
+            margin-bottom: 25px;
+        }
+        &__content:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}

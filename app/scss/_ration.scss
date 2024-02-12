@@ -1,0 +1,41 @@
+.ration {
+    padding: 40px 0 137px 0;
+    column-gap: 2px;
+    &-item {
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        &__img{
+            border-radius: 14px;
+        }
+        &__content, &__title {
+            line-height: 20px;
+        }
+        &__title {
+            font-size: 18px;
+            font-family: $RobotoBlack;
+            text-transform: uppercase;
+        }
+        &__content, &__cla {
+            font-family: $RobotoReg;
+            font-size: 14px;
+        }
+        &__cla { 
+            line-height: 23px;
+            color: $grey77;
+        }
+        &-price {
+            &__sum {
+                font-size: 20px;
+                font-family: $RobotoBold;
+                text-transform: uppercase;
+                line-height: 23px;
+            }
+            &__btn {
+                width: 136px;
+                height: 35px;
+            }
+        }
+    }
+}
